@@ -8,10 +8,10 @@ This repository has a ReadMe, CodeBook, and code (R script called run_analysis.R
   Second, download the R source code into your R working directory.  
   Finally, execute R source code to generate tidy data file (TidyFile.txt).
 
-Dataset is from a study from the websites listed below.  The data was collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained:
+The datasets are from a study from the two websites listed below.  The data was collected from the accelerometers from the Samsung Galaxy S smartphone. A full description of the study is available at this site:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-This URL is source of the data files for the project:
+This site below is the source of the data files for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The "run_analysis.R" script does the following per the instuctions below:
