@@ -1,5 +1,7 @@
 This is the Code Book for the Coursera "Getting and Cleaning Data" project.
+
 Authur:   Ronda Hutchin
+
 Created:  April 24, 2020
 
 Quick Summary of the Project:  The datasets are from a study from the two websites listed below.  The data was collected from the accelerometers from the Samsung Galaxy S smartphone.  For more details on the study and data source, refer to the README.md within this repository. This same repository contains the script that is outlined in this code book.
