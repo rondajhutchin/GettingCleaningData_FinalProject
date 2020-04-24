@@ -13,7 +13,7 @@ library(dplyr)
 ## set working directory to the location of the downloaded data files
 setwd("C:/Users/ronda/Documents/RWorkingFiles/UCI HAR Dataset")
 
-> library(dplyr)
+library(dplyr)
 
 
 ## use read.table to read and load the data in the train "training set" file
