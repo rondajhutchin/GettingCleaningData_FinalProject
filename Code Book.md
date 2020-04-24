@@ -13,11 +13,18 @@ The data sets downloaded and used in the script described below need to be place
 
 The "run_analysis.R" script (written in R) executes the five (5) steps specified in the course project guidelines and listed below.  The script contains comments before each section of code that executes the steps listed to make it easier to understand and maintain the code.
 
+The dplyr library is used in the "run_analysis.R" script.
+
+The working directory is set and can be adjusted to the location of where the files are downloaded.
+
   Step 1.	Merges the training and the test sets to create one data set.
+  
   Step 2.	Extracts only the measurements on the mean and standard deviation for each measurement.
+  
   Step 3.	Uses descriptive activity names to name the activities in the data set
+  
   Step 4.	Appropriately labels the data set with descriptive variable names.
+  
   Step 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity    and each subject.
 
-The dplyr library is used in the "run_analysis.R" script.
-The working directory is set and can be adjusted to the location of where the files are downloaded.
+
