@@ -40,9 +40,10 @@ Read the other two (2) data sets into variables named "features" and "activity_l
     Using gsub, rename some of the data columns with a more descriptive variable name.
   
   Step 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity    and each subject.
-    Using group_by and ummarise_all, create tidy data set with the average of each variable, activity and subject as the variable "MyTidyDataGrouped".  Export this as the text document named "TidyDate.txt" which is in this repository.
+    Using group_by and ummarise_all, create tidy data set with the average of each variable, activity and subject as the variable "MyTidyDataGrouped".  Export this as the text document named "TidyData.txt" which is in this repository.
   
- Data Elements:
+ Data Elements within the "TidyData.txt" file:
+ 
  subject  
  activity  
  TimeBodyAccel.mean...X  
