@@ -17,14 +17,35 @@ The dplyr library is used in the "run_analysis.R" script.
 
 The working directory is set and can be adjusted to the location of where the files are downloaded.
 
+The data sets are read into a variables named the same as the data set and read-in the columns needed.
+Read the train data sets into variables named "x_train", "y_train", "subject_train"
+Read the test data sets into variables named "x_test", "y_test", "subject_test"
+Read the other two (2) data sets into variables named "features" and "activity_labels"
+
   Step 1.	Merges the training and the test sets to create one data set.
   
+    Using rbind, combine the training, test and subject data sets into 3 variables - "x_combo", "y_combo" and "subject_combo".
+    Using rbind, combine again into a variable named "ALLData".
+     
   Step 2.	Extracts only the measurements on the mean and standard deviation for each measurement.
   
+    Using select to extract the "mean" and "std" measurements from the "ALLData" set and assign it to the "MyTidyData" variable.
+    
   Step 3.	Uses descriptive activity names to name the activities in the data set
   
+   Using the "activity_labels" data set and "MyTidyData" name the activity data.
+  
   Step 4.	Appropriately labels the data set with descriptive variable names.
+    
+    Using gsub, rename some of the data columns with a more descriptive variable name.
   
   Step 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity    and each subject.
-
+    Using group_by and ummarise_all, create tidy data set with the average of each variable, activity and subject as the variable "MyTidyDataGrouped".  Export this as the text document named "TidyDate.txt" which is in this repository.
+  
+  Data Elements:
+  
+  
+  
+  
+    
 
